@@ -1,0 +1,31 @@
+{
+  "name": "marcolamr/funcaoseculoano",
+  "description": "Desafio Função Século Ano",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Marcos Roberto",
+      "email": "marcosroberto.cn@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/router": "^1.0",
+    "coffeecode/optimizer": "^2.0"
+  }
+}
